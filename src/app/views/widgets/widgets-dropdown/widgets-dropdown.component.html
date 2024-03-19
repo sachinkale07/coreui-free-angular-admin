@@ -1,0 +1,51 @@
+<c-row>
+  <c-col sm="6" xl="3">
+    <c-widget-stat-a
+      [title]="'HubSpot'"
+      class="mb-4"
+      color="info"
+    >
+      <ng-template cTemplateId="widgetValueTemplate" ngPreserveWhitespaces>
+        
+      </ng-template>
+      <ng-template cTemplateId="widgetActionTemplate">
+        <c-dropdown alignment="end" variant="btn-group">
+          <!-- <button [caret]="false" cButton cDropdownToggle class="p-0" color="transparent">
+            <svg cIcon class="text-high-emphasis-inverse" name="cilOptions"></svg>
+          </button> -->
+          <!-- <ul cDropdownMenu>
+            <li><a routerLink="./" cDropdownItem>Action</a></li>
+            <li><a routerLink="./" cDropdownItem>Another action</a></li>
+            <li><a routerLink="./" cDropdownItem>Something else here</a></li>
+            <li><a [disabled]="true" routerLink="./" cDropdownItem>Disabled</a></li>
+          </ul> -->
+        </c-dropdown>
+      </ng-template>
+      <ng-template cTemplateId="widgetChartTemplate">
+        <c-chart ></c-chart>
+      </ng-template>
+    </c-widget-stat-a>
+  </c-col>
+  <c-col sm="6" xl="3">
+    <c-widget-stat-a
+      [title]="'PWS'"
+      class="mb-4"
+      color="warning"
+    >
+      <ng-template cTemplateId="widgetValueTemplate" ngPreserveWhitespaces>
+        
+      </ng-template>
+      <ng-template cTemplateId="widgetActionTemplate">
+        <c-dropdown alignment="end" variant="btn-group">
+          
+          <ul cDropdownMenu>
+            
+          </ul>
+        </c-dropdown>
+      </ng-template>
+      <ng-template cTemplateId="widgetChartTemplate">
+        <c-chart ></c-chart>
+      </ng-template>
+    </c-widget-stat-a>
+  </c-col>
+</c-row>
